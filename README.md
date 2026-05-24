@@ -20,3 +20,15 @@ Use double quotes like this fgfs = '"directory here"'
 
 If you need help, Check my F-22A Raptor github repository as theres a discord server link in which I can help you there.
 Enjoy!
+
+
+To compile it:
+install python 3.8.8 
+Be sure to check add to PATH during the installation
+After its done, open a command prompt and type 
+pip install pyinstaller
+
+In the same directory as main.py, enter 
+pyinstaller --onefile --console main.py
+
+Once thats done, the compiled executeable will be in the "dist" folder
